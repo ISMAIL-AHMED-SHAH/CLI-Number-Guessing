@@ -1,10 +1,8 @@
-#! usr/bin/env node
+#!/usr/bin/env node
 
 import inquirer from "inquirer";
 
-// computer will generate a number
-// user input for guessing number
-// compair user input with computer generated number and show result
+console.log("\t\nWelcome to Shahi Number Guessing Game\n\t")
 
 const randomNumber = Math.floor(Math.random() * 10 + 1);
 
